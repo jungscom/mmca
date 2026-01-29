@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>현재전시 : 덕수궁</title>
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link rel="icon" href="image/mmca_logo2.png" sizes="16x16">
+  <link rel="icon" href="image/mmca_logo2.png" sizes="32x32">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-4.0.0.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/exh_list.js"></script>
+</head>
+<body>
+  <header id="top">
+    <h1><a href="index.html"><img src="image/mmca_logo.png" alt="국립현대미술관"></a></h1>
+    <!-- <a href="#" class="area_icon"><i class="fas fa-angle-down black"></i></a> -->
+    <a href="#" class="menu_icon"><i class="fas fas fa-bars icon black"></i></a>
+  </header><!-- top -->
+
+  <div id="menu_wrap">
+    <a href="#" class="menu_close"><i class="far fas fa-times icon white"></i></a>
+    <nav id="gnb"><ul>
+      <li><a href="#">미술관 안내</a>
+        <ul class="submenu">
+          <li><a href="#">미술관소개</a></li>
+          <li><a href="#">관람안내</a></li>
+          <li><a href="#">레지던스</a></li>
+          <li><a href="#">미술은행</a></li>
+        </ul><!-- submenu -->
+      </li>
+      <li><a href="#">전시</a>
+        <ul class="submenu">
+          <li><a href="total_list.html" class="connect">현재전시</a></li>
+          <li><a href="#">예정전시</a></li>
+          <li><a href="#">과거전시</a></li>
+          <li><a href="#">전시해설 · 오디오가이드</a></li>
+        </ul><!-- submenu -->
+      </li>
+      <li><a href="#">교육 · 이벤트</a>
+        <ul class="submenu">
+          <li><a href="#">프로그램</a></li>
+          <li><a href="#">이벤트 · 체험</a></li>
+          <li><a href="#">참여신청</a></li>
+          <li><a href="#">교육자료실</a></li>
+        </ul><!-- submenu -->
+      </li>
+      <li><a href="#">소장품</a>
+        <ul class="submenu">
+          <li><a href="#">소장품 검색</a></li>
+          <li><a href="#">소장품 대여 안내</a></li>
+          <li><a href="#">보존과학</a></li>
+        </ul><!-- submenu -->
+      </li>
+      <li><a href="#">연구 · 자료</a>
+        <ul class="submenu">
+          <li><a href="#">도서 · 아카이브</a></li>
+          <li><a href="#">연구 프로젝트</a></li>
+          <li><a href="#">발간자료</a></li>
+        </ul><!-- submenu -->
+      </li>
+      <li><a href="#">참여 · 소식</a>
+        <ul class="submenu">
+          <li><a href="#">공지사항</a></li>
+          <li><a href="#">뉴스레터</a></li>
+          <li><a href="#">멤버십</a></li>
+          <li><a href="#">온라인스토어</a></li>
+          <li><a href="#">이용자갤러리</a></li>
+        </ul><!-- submenu -->
+      </li>
+    </ul></nav><!-- gnb -->
+    <div class="quick_menu">
+      <ul>
+        <li><a href="#">회원가입</a></li>
+        <li><a href="#">로그인</a></li>
+      </ul>
+    </div><!-- quick_menu -->
+  </div><!-- menu_wrap -->
+
+  <div id="container">
+    <div class="search">
+      <div class="area_w">
+        <label for="area">현재 전시 : </label>
+        <select id="area">
+          <option value="전체">전체</option>
+          <option value="서울">서울</option>
+          <option value="과천">과천</option>
+          <option value="덕수궁">덕수궁</option>
+          <option value="청주">청주</option>
+          <option value="어린이미술관" selected>어린이미술관</option>
+        </select><!-- area -->
+      </div><!-- area_w -->
+
+      <div class="date_w">
+        <input type="date" class="date"> - 
+        <input type="date" class="date">
+        <a href="#"><i class="fas fa-search icon search_icn"></i></a>
+      </div><!-- date_w -->
+    </div><!-- search -->
+
+    <div class="exh_list">
+      <article class="exh1">
+        <h2>전시</h2>
+        <img src="image/child_exh1.png" alt="내일 우리는">
+        <div>
+          <a href="#">
+            <p class="exh_tit"><b>내일 우리는</b></p>
+            <p class="exh_info">한국 - 싱가포르 수교 50주년 기념. 국립현대미술관 과천 어린이미술관 X Gallery Children’s Biennale, GCB</p>
+            <p class="exh_date">2025.05.01 - 2026.02.18</p>
+            <i class="fas fa-long-arrow-alt-right icon white"></i>
+          </a>
+        </div>
+      </article>
+    </div><!-- exh_list -->
+  </div><!-- container -->
+
+  <footer id="bottom">
+    <h3><a href="#"><img src="image/mmca_logo.png" alt="mmca_logo"></a></h3>
+    <ul class="fnb">
+      <li><a href="#"><b>참여</b></a>
+        <ul>
+          <li><a href="#">채용</a></li>
+          <li><a href="#">후원</a></li>
+          <li><a href="#">자원봉사</a></li>
+          <li><a href="#">시설대관 · 복제신청</a></li>
+          <li><a href="#">문의</a></li>
+          <li><a href="#">국립현대미술관 문화재단</a></li>
+        </ul>
+      </li>
+      <li><a href="#"><b>법적고지</b></a>
+        <ul>
+          <li><a href="#">개인정보처리방침</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">저작권정책</a></li>
+          <li><a href="#">국민신문고</a></li>
+          <li><a href="#">정보공개</a></li>
+          <li><a href="#">클린신고센터</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="sns">
+      <li><a href="#"><i class="fab fa-instagram icon black"></i></a></li>
+      <li><a href="#"><i class="fab fa-youtube icon black"></i></a></li>
+      <li><a href="#"><i class="fab fa-facebook-f icon black"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter icon black"></i></a></li>
+    </ul><!-- sns -->
+    <ul class="fnb_info">
+      <li><b>대표자:</b> 김성희</li>
+      <li><b>사업자등록번호:</b> 138-83-00313</li>
+      <li><b>대표전화:</b> (서울) 02-3701-9500<br>(과천) 02-2188-6000<br>(덕수궁) 02-2022-0600<br>(청주) 043-261-1400</li>
+      <li>&copy; 2021 National Museum of Modern and Contemporary Art, Korea</li>
+    </ul><!-- fnb_info -->
+  </footer><!-- bottom -->
+
+  <a href="#container" class="top_btn"><i class="fas fa-chevron-circle-up icon green"></i></a>
+</body>
+</html>
