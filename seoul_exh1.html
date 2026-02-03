@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>현재전시 : 서울</title>
+  <title>현재전시 : 이중시선</title>
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link rel="icon" href="image/mmca_logo2.png" sizes="16x16">
   <link rel="icon" href="image/mmca_logo2.png" sizes="32x32">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/jquery-4.0.0.min.js"></script>
   <script src="js/index.js"></script>
-  <script src="js/exh_list.js"></script>
+  <script src="js/exh_detail.js"></script>
 </head>
+
 <body>
   <header id="top">
     <h1><a href="index.html"><img src="image/mmca_logo.png" alt="국립현대미술관"></a></h1>
@@ -21,55 +23,57 @@
 
   <div id="menu_wrap">
     <a href="#" class="menu_close"><i class="far fas fa-times icon white"></i></a>
-    <nav id="gnb"><ul>
-      <li><a href="#">미술관 안내</a>
-        <ul class="submenu">
-          <li><a href="#">미술관소개</a></li>
-          <li><a href="#">관람안내</a></li>
-          <li><a href="#">레지던스</a></li>
-          <li><a href="#">미술은행</a></li>
-        </ul><!-- submenu -->
-      </li>
-      <li><a href="#">전시</a>
-        <ul class="submenu">
-          <li><a href="total_list.html" class="connect">현재전시</a></li>
-          <li><a href="#">예정전시</a></li>
-          <li><a href="#">과거전시</a></li>
-          <li><a href="#">전시해설 · 오디오가이드</a></li>
-        </ul><!-- submenu -->
-      </li>
-      <li><a href="#">교육 · 이벤트</a>
-        <ul class="submenu">
-          <li><a href="#">프로그램</a></li>
-          <li><a href="#">이벤트 · 체험</a></li>
-          <li><a href="#">참여신청</a></li>
-          <li><a href="#">교육자료실</a></li>
-        </ul><!-- submenu -->
-      </li>
-      <li><a href="#">소장품</a>
-        <ul class="submenu">
-          <li><a href="#">소장품 검색</a></li>
-          <li><a href="#">소장품 대여 안내</a></li>
-          <li><a href="#">보존과학</a></li>
-        </ul><!-- submenu -->
-      </li>
-      <li><a href="#">연구 · 자료</a>
-        <ul class="submenu">
-          <li><a href="#">도서 · 아카이브</a></li>
-          <li><a href="#">연구 프로젝트</a></li>
-          <li><a href="#">발간자료</a></li>
-        </ul><!-- submenu -->
-      </li>
-      <li><a href="#">참여 · 소식</a>
-        <ul class="submenu">
-          <li><a href="#">공지사항</a></li>
-          <li><a href="#">뉴스레터</a></li>
-          <li><a href="#">멤버십</a></li>
-          <li><a href="#">온라인스토어</a></li>
-          <li><a href="#">이용자갤러리</a></li>
-        </ul><!-- submenu -->
-      </li>
-    </ul></nav><!-- gnb -->
+    <nav id="gnb">
+      <ul>
+        <li><a href="#">미술관 안내</a>
+          <ul class="submenu">
+            <li><a href="#">미술관소개</a></li>
+            <li><a href="#">관람안내</a></li>
+            <li><a href="#">레지던스</a></li>
+            <li><a href="#">미술은행</a></li>
+          </ul><!-- submenu -->
+        </li>
+        <li><a href="#">전시</a>
+          <ul class="submenu">
+            <li><a href="total_list.html" class="connect">현재전시</a></li>
+            <li><a href="#">예정전시</a></li>
+            <li><a href="#">과거전시</a></li>
+            <li><a href="#">전시해설 · 오디오가이드</a></li>
+          </ul><!-- submenu -->
+        </li>
+        <li><a href="#">교육 · 이벤트</a>
+          <ul class="submenu">
+            <li><a href="#">프로그램</a></li>
+            <li><a href="#">이벤트 · 체험</a></li>
+            <li><a href="#">참여신청</a></li>
+            <li><a href="#">교육자료실</a></li>
+          </ul><!-- submenu -->
+        </li>
+        <li><a href="#">소장품</a>
+          <ul class="submenu">
+            <li><a href="#">소장품 검색</a></li>
+            <li><a href="#">소장품 대여 안내</a></li>
+            <li><a href="#">보존과학</a></li>
+          </ul><!-- submenu -->
+        </li>
+        <li><a href="#">연구 · 자료</a>
+          <ul class="submenu">
+            <li><a href="#">도서 · 아카이브</a></li>
+            <li><a href="#">연구 프로젝트</a></li>
+            <li><a href="#">발간자료</a></li>
+          </ul><!-- submenu -->
+        </li>
+        <li><a href="#">참여 · 소식</a>
+          <ul class="submenu">
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">뉴스레터</a></li>
+            <li><a href="#">멤버십</a></li>
+            <li><a href="#">온라인스토어</a></li>
+            <li><a href="#">이용자갤러리</a></li>
+          </ul><!-- submenu -->
+        </li>
+      </ul>
+    </nav><!-- gnb -->
     <div class="quick_menu">
       <ul>
         <li><a href="#">회원가입</a></li>
@@ -79,7 +83,151 @@
   </div><!-- menu_wrap -->
 
   <div id="container">
-    div.
+    <div class="con_tit">
+      <a href="#"><i class="fas fa-angle-left icon black"></i></a>
+      <h2>이중시선</h2>
+    </div><!-- con_tit -->
+
+    <div class="content_w">
+      <img src="image/seoul_exh1.png" alt="이중시선" class="seoul_exh1">
+      <article class="content">
+        <h2>전시정보</h2>
+        <div>
+          <p class="title">이중시선</p>
+          <p class="period">2025.11.16 <span> 2026.01.10</span></p>
+        </div>
+        <ul class="tab">
+          <li><a href="#exh_info" class="tab_on">전시정보</a></li>
+          <li><a href="#exh_time">상영시간</a></li>
+          <li><a href="#exh_data">관련자료</a></li>
+        </ul>
+  
+        <section id="exh_info">
+          <h2>전시정보</h2>
+          <ul>
+            <li><span>기간</span>2025.11.26 - 2026.01.10</li>
+            <li><span>주최/후원</span>국립현대미술관</li>
+            <li><span>장소</span>서울 지하1층, MMCA영상관</li>
+            <li><span>관람료</span>무료</li>
+            <li><span>작가</span>김기영, 할 애쉬비, 르네 비에네, 스티브 오데커크, 커스틴 존슨, 레스 블랭크, 조근식, 송능한, 알프레드 히치콕, 구스 반 산트, 로버트 클레이머, 아비 모그라비</li>
+            <li><span>작품수</span>12편</li>
+          </ul>
+          <dl>
+            <dt><a href="#">전시설명</a></dt>
+            <dd>
+              국립현대미술관은 2025년 MMCA필름앤비디오의 마지막 프로그램으로 «이중시선»을 선보인다. «이중시선»은 오늘날 OTT, 유튜브, 인터넷에 범람하는 영상들, 멀티플렉스 극장에서 재상영되는 영화들, 그리고 고전 영화 작품선에 들지 못해 언급되지 않거나 사라진 듯 취급되어 온 작품들을 다른 작품과 짝지어 서로가 서로의 코멘터리가 되도록 구성한 프로그램이다. 존재하지만 보이지 않았던, 혹은 당대의 방식으로 존재하지 못했던 작품들이 이중의 시선을 통해 다시 읽히는 자리이다.<br><br>이번 프로그램은 단순히 서로 다른 작품을 병치하는 데서 그치지 않는다. 영화가 탄생한 시대와 배경, 장르와 형식, 제도와 관객의 기대를 가로지르며, 서로 다른 의미를 지닌 이미지와 내러티브가 충돌하고 반향하는 순간에 주목한다. 두 개의 화면이 맞닿는 지점에서 드러나는 균열과 공명은 결국 영화가 다르게 볼 수 있는 방식을 어떻게 제안하는지, 혹은 어떻게 실패하는지를 살펴보게 한다.<br><br>총 12편의 영화를 2편씩 엮어 6개의 프로그램으로 구성했다. 첫 번째 프로그램은 김기영 감독의 ‹살인 나비를 쫓는 여자›와 ‹해롤드와 모드›다. 두 작품은 죽음을 향할수록 되려 생동하는 욕망을 그린 영화들로, 삶과 죽음의 경계에서 기존 질서와 규범을 전복하려는 메시지를 공유한다.<br><br>두 번째 프로그램은 르네 비에네의 ‹변증법은 벽돌을 깰 수 있는가?›와 스티브 오데커크의 ‹퓨전 쿵푸›다. 두 영화는 정치적 전략과 해학의 경계를 넘나들며 대중적 스펙터클이자 소비문화의 상징이었던 아시아 무술 영화를 전복의 장치로 삼는다. 재현과 재맥락화를 통해 서사를 비틀고, 이미지와 언어를 충돌시키며 새로운 사유의 공간을 연다.<br><br>세 번째 프로그램에서는 알프레드 히치콕의 대표작 ‹싸이코›와 이를 38년 후에 똑같이 재촬영하려 했던 구스 반 산트의 ‹싸이코›를 상영한다. 흑백은 컬러로 대체되며, 원작의 시선과 호흡을 그대로 따라간 리메이크는 원작의 경계와 감각이 흐려지는 지점을 관객에게 묻는다.<br><br>네 번째 프로그램은 제작 현장의 기록과 카메라 뒤 주체의 성찰을 함께 제시한다. ‹버든 오브 드림즈›가 한 작품의 제작 현장을 통해 집요함의 윤리를 드러낸다면, ‹카메라를 든 사람›은 다수의 촬영 현장을 엮어 관찰자의 자기성찰을 전면화한다.<br><br>다섯 번째 프로그램은 ‹우리 모두의 나치›와 ‹Z32›다. 카메라 앞에 선 이들과 카메라 뒤의 이들이 서로를 응시함으로써 전쟁과 폭력의 당사자성, 그리고 영화라는 장치를 통한 재현의 윤리적 불안정성을 드러낸다. 현재와 과거, 증언과 허구 사이의 긴장이 치밀하게 구축된다.<br><br>마지막 프로그램은 한국 영화 ‹넘버3›와 ‹품행제로›로, 하이틴 복고 열풍과 조폭 영화의 성공 신화가 출발했던 임계점을 조명한다. 두 작품은 한국 대중 영화가 공식과 기틀을 다지는 흐름에서 대중성과 반항, 장르적 반항과 실험을 통해 시대 감수성을 열어간 순간을 보여준다.<br><br>«이중시선»의 출발점에는 ‘웃지 않는 공주’ 설화에서 착안한 질문이 있다. 공주와 그녀를 웃게 한 인물은 그들이 속한 사회의 기대와 상식에서 벗어나 있었고, 서로가 서로를 알아본 순간 기묘한 공명과 전복이 발생했다. 이번 프로그램 역시 그렇게 세상의 방식에서 벗어나거나 비켜난 작품들, 의도했던 것과 전혀 다른 곳으로 도착하는 영상, 보편적인 관습으로 이해받는 것에 무심한 영상, 그럼에도 이해받을 가치가 있는 그런 영화들을 교차해 보고 마주하는 시도를 통해 기존의 감각을 환기시켜준다. 이번 프로그램이 남기는 균열과 여백 속에서 관객이 스스로 질문하고 사유하며, 익숙한 시청각과 이야기의 세계 너머를 바라보기를 기대한다.
+            </dd>
+          </dl>
+        </section><!-- exh_info -->
+  
+        <section id="exh_time">
+          <h2>상영시간</h2>
+          <table>
+            <caption>상영시간표</caption>
+            <tr>
+              <th>일자 및 시간</th>
+              <th>상영작</th>
+              <th>관람 연령</th>
+            </tr>
+            <tr>
+              <td>12/17(수) 15:00</td>
+              <td>버든 오브 드림즈(95분)</td>
+              <td>15세 이상</td>
+            </tr>
+            <tr>
+              <td>12/17(수) 19:00</td>
+              <td>카메라를 든 사람(102분)</td>
+              <td>전체관람가</td>
+            </tr>
+            <tr>
+              <td>12/20(토) 14:00</td>
+              <td>변증법은 벽돌을 깰 수 있는가? (82분)<br>스크리닝+ 토크</td>
+              <td>15세 이상</td>
+            </tr>
+            <tr>
+              <td>12/20(토) 19:00</td>
+              <td>퓨전 쿵푸(81분)</td>
+              <td>12세 이상</td>
+            </tr>
+            <tr>
+              <td>12/21(일) 15:00</td>
+              <td>카메라를 든 사람(102분)</td>
+              <td>전체관람가</td>
+            </tr>
+            <tr>
+              <td>12/24(수) 15:00</td>
+              <td>품행제로(99분)</td>
+              <td>15세 이상</td>
+            </tr>
+            <tr>
+              <td>12/24(수) 18:30</td>
+              <td>넘버3(108분)</td>
+              <td>18세 이상</td>
+            </tr>
+            <tr>
+              <td>12/27(토) 15:00</td>
+              <td>Z32(81분)</td>
+              <td>12세 이상</td>
+            </tr>
+            <tr>
+              <td>12/27(토) 18:30</td>
+              <td>우리 모두의 나치(113분)</td>
+              <td>15세 이상</td>
+            </tr>
+            <tr>
+              <td>12/28(일) 15:00</td>
+              <td>우리 모두의 나치(113분)</td>
+              <td>15세 이상</td>
+            </tr>
+            <tr>
+              <td>12/31(수) 15:00</td>
+              <td>Z32(81분)</td>
+              <td>12세 이상</td>
+            </tr>
+            <tr>
+              <td>26/1/3(토) 15:00</td>
+              <td>싸이코 (구스 반 산트) (103분)</td>
+              <td>18세 이상</td>
+            </tr>
+            <tr>
+              <td>1/3(토) 18:30</td>
+              <td>싸이코 (알프레드 히치콕) (109분)</td>
+              <td>18세 이상</td>
+            </tr>
+            <tr>
+              <td>1/4(일) 15:00</td>
+              <td>버든 오브 드림즈(95분)</td>
+              <td>15세 이상</td>
+            </tr>
+            <tr>
+              <td>1/7(수) 15:00</td>
+              <td>우리 모두의 나치(113분)</td>
+              <td>15세 이상</td>
+            </tr>
+            <tr>
+              <td>1/7(수) 19:00</td>
+              <td>Z32(81분)</td>
+              <td>12세 이상</td>
+            </tr>
+            <tr>
+              <td>1/10(토) 14:00</td>
+              <td>넘버3 (108분)<br>스크리닝 + 토크</td>
+              <td>18세 이상</td>
+            </tr>
+            <tr>
+              <td>1/10(토) 18:30</td>
+              <td>품행제로(99분)</td>
+              <td>15세 이상</td>
+            </tr>
+          </table>
+        </section>
+  
+        <section id="exh_data">
+          <h2>관련자료</h2>
+          <div class="pdf_btn"><a href="pdf/2025+이중시선_브로슈어.pdf" target="_blank">2025 이중시선_브로슈어.pdf</a></div>
+        </section>
+      </article><!-- content -->
+    </div><!-- con_w -->
   </div><!-- container -->
 
   <footer id="bottom">
@@ -121,5 +269,9 @@
   </footer><!-- bottom -->
 
   <a href="#container" class="top_btn"><i class="fas fa-chevron-circle-up icon green"></i></a>
+  <div class="reserve_btn">
+    <a href="reserve_info.html">예약하기</a>
+  </div>
 </body>
+
 </html>
