@@ -24,15 +24,17 @@
 .period span::before { content: ""; display: inline-block; width: 30px; margin-bottom: 6px; border-top: 2px solid #999; }
 
 .tab { display: flex; padding: 10px 0; }
-.tab li a { font-size: 18px; font-weight: bold; color: #999; padding: 10px 40px 10px 10px; }
+.tab li a { font-size: 18px; font-weight: bold; color: #999; padding: 10px 30px 10px 10px; }
 .tab li a.tab_on { color: var(--text-color); border-bottom: 2px solid #6A9888; }
 
-#exh_info { padding: 20px 10px; text-align: justify; }
+#exh_info, #exh_resv { padding: 20px 10px; text-align: justify; }
 #exh_info li { margin-bottom: 20px; }
 #exh_info li span { font-weight: bold; margin-right: 20px; }
-#exh_info dl dt { margin-bottom: 5px; }
-#exh_info dl dt a { color: #999; font-weight: bold; }
-#exh_info dl dt a.selected { color: var(--sub-color); }
+
+.content dl { margin-bottom: 15px; }
+.content dl dt { margin-bottom: 5px; }
+.content dl dt a { color: #999; font-weight: bold; }
+.content dl dt a.selected { color: var(--sub-color); }
 
 #exh_time { padding: 20px 0; }
 #exh_time table { width: 100%; }
@@ -44,6 +46,6 @@
 .pdf_btn a { border: 2px solid #333; background-color: #fff; padding: 10px 20px; border-radius: 100px; }
 .pdf_btn a:hover { border-color: var(--sub-color); background-color: var(--sub-color); color: #fff; }
 
-.reserve_btn { position: fixed; left: 50%; transform: translateX(-50%); bottom: 3%; }
-.reserve_btn a { display: block; text-align: center; font-size: var(--tit-fz); background-color: #fff; padding: 10px 70px; border-radius: 100px; border: 2px solid var(--main-color); }
+.reserve_btn { width: 85%; position: fixed; left: 50%; transform: translateX(-50%); bottom: 3%; display: flex; justify-content: space-between; }
+.reserve_btn a { box-sizing: border-box; width: 49%; font-weight: bold; text-align: center; font-size: 18px; background-color: #ddd; padding: 10px 30px; border-radius: 100px; letter-spacing: 1px; }
 .reserve_btn a:hover { background-color: var(--main-color); color: #fff; }
