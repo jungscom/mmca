@@ -11,7 +11,7 @@
   --sub-tit-fz:20px;
 }
 
-.con_tit { width: 100%; padding: var(--padding); display: flex; justify-content: start; align-items: center; position: fixed; background-color: #fff; box-sizing: border-box; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
+.con_tit { margin-top: 70px; width: 100%; padding: var(--padding); display: flex; justify-content: start; align-items: center; position: fixed; background-color: #fff; box-sizing: border-box; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
 .con_tit h2 { font-size: var(--tit-fz); position: absolute; left: 50%; transform: translateX(-50%); margin-bottom: 5px; }
 .seoul_exh1 { width: 100%; margin-top: 65px; }
 
@@ -48,6 +48,6 @@
 .pdf_btn a { border: 2px solid #333; background-color: #fff; padding: 10px 20px; border-radius: 100px; }
 .pdf_btn a:hover { border-color: var(--sub-color); background-color: var(--sub-color); color: #fff; }
 
-.reserve_btn { width: 85%; position: fixed; left: 50%; transform: translateX(-50%); bottom: 3%; display: flex; justify-content: space-between; }
+.reserve_btn { max-width: 1000px; width: 85%; position: fixed; left: 50%; transform: translateX(-50%); bottom: 3%; display: flex; justify-content: space-between; }
 .reserve_btn a { box-sizing: border-box; width: 49%; font-weight: bold; text-align: center; font-size: 18px; background-color: #ddd; padding: 10px 30px; border-radius: 100px; letter-spacing: 1px; }
 .reserve_btn a:hover { background-color: var(--main-color); color: #fff; }

@@ -11,14 +11,13 @@
   --sub-tit-fz:20px;
 }
 
-.resv_con { margin-top: 70px; }
-.resv_con h2 { font-size: 20px; text-align: center; padding: 10px; border-bottom: 1px solid #999; }
+.resv_con h2 { margin-top: 70px; font-size: 20px; text-align: center; padding: 10px; border-bottom: 1px solid #999; }
 .resv_con h3 { margin-bottom: 10px; font-size: 18px; }
 .resv_con input { font-size: 16px; }
 .resv_con > div { padding: 10px 20px; border-bottom: 1px solid #999; }
 
 .resv_date { box-sizing: border-box; }
-.resv_date input { font-family: sans-serif; border: none; outline: none; width: 100%; text-align: start; }
+.resv_date input { width: 100%; text-align: start; font-family: sans-serif; border: none; outline: none; }
 
 .resv_info input { text-indent: 1em; width: 100%; padding: 10px; box-sizing: border-box; margin-bottom: 10px; border-radius: 100px; border: 1px solid #999; }
 .resv_info input:last-of-type { width: 65%; }
