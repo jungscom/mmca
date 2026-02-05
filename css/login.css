@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-#wrap { margin: 30% 0; text-align: center; }
+#wrap { margin:200px 0; text-align: center; }
 #wrap h1 { margin-bottom: 50px; }
 #wrap h1 img { width: 50px; }
 .login input { display: block; margin: 10px auto; width: 70%; max-width: 500px; padding: 15px; box-sizing: border-box; font-size: 16px; border-radius: 100px; border: 1px solid #999; text-indent: 1em; }
