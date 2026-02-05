@@ -23,8 +23,9 @@
 .period span { display: block; }
 .period span::before { content: ""; display: inline-block; width: 30px; margin-bottom: 6px; border-top: 2px solid #999; }
 
-.tab { display: flex; padding: 10px 0; }
-.tab li a { font-size: 18px; font-weight: bold; color: #999; padding: 10px 30px 10px 10px; }
+.tab { width: 90%; display: flex; }
+.tab li { width: 100%; }
+.tab li a { font-size: 18px; font-weight: bold; color: #999; display: block; padding: 10px; }
 .tab li a.tab_on { color: var(--text-color); border-bottom: 2px solid #6A9888; }
 
 #exh_info, #exh_resv { padding: 20px 10px; text-align: justify; }
@@ -35,6 +36,7 @@
 .content dl dt { margin-bottom: 5px; }
 .content dl dt a { color: #999; font-weight: bold; }
 .content dl dt a.selected { color: var(--sub-color); }
+.content dl dd { line-height: 1.8em; }
 
 #exh_time { padding: 20px 0; }
 #exh_time table { width: 100%; }

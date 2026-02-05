@@ -1,4 +1,8 @@
 $(function(){
+  $('.con_tit i').on('click',function(){
+    history.back();
+  });
+
   $('.menu_icon').on('click',function(){
     $('#menu_wrap').animate({right:'0'},400);
   });

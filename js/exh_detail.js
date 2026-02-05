@@ -1,8 +1,4 @@
 $(function(){
-  $('.con_tit i').on('click',function(){
-    history.back();
-  });
-  
   $('.content dd').hide();
   $('.content').on('click','dt a',function(e){
     e.preventDefault();

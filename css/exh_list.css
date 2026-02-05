@@ -6,9 +6,9 @@
 }
 
 .search { width: 100%; padding: 30px 20px; box-sizing: border-box; overflow: hidden; }
-.area_w { position: relative; margin-bottom: 10px; }
-.area_w label { font-size: var(--tit-fz); font-weight: bold; margin-bottom: 10px; }
-#area { font-size: 20px; font-weight: bold; text-align: center; border: none; outline: none; cursor: pointer; position: absolute; top: 7px; }
+.area_w { display: flex; align-items: center; margin-bottom: 10px; }
+.area_w label { font-size: var(--tit-fz); font-weight: bold; /* margin-bottom: 10px; */ }
+#area { font-size: calc(var(--tit-fz) - 2px ); font-weight: bold; text-align: center; border: none; outline: none; cursor: pointer; }
 .date_w { text-align: center; display: flex; justify-content: space-between; align-items: center; }
 .date { font: 1em sans-serif; width: 43%; text-indent: 3px; }
 .search_icn { font-size: 18px; color: #fff; background-color: var(--main-color); padding: 7px; border-radius: 5px; }

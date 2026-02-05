@@ -26,9 +26,9 @@
 .resv_info button:hover { background-color: var(--sub-color); color: #fff; }
 
 .resv_detail { position: relative; }
-.resv_detail dl dd { width: 210px; background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 10px; border-radius: 10px; text-align: justify; font-size: 14px; position: absolute; left: 115px; bottom: 35px; visibility: hidden; transition: all 0.3s; opacity: 0; }
-.resv_detail dl dt:hover + dd { visibility: visible; opacity: 1; }
-.resv_detail p { border: 1px solid #999; padding: 5px 20px; border-radius: 100px; }
+.resv_detail div p { border: 1px solid #999; padding: 5px 20px; border-radius: 100px; }
+.resv_detail div:last-child p { width: 210px; background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 10px; border-radius: 10px; text-align: justify; font-size: 14px; position: absolute; left: 115px; bottom: 35px; display: none; /* visibility: hidden; transition: all 0.3s; opacity: 0; */ }
+/* .resv_detail dl dt:hover + dd { visibility: visible; opacity: 1; } */
 .resv_detail .price { border: none; position: absolute; right: 120px; }
 .resv_detail .num_btn { padding: 5px 10px; display: flex; align-items: center; }
 .minus_icn, .plus_icn { margin: 0 20px; font-size: 10px; cursor: pointer; }
@@ -37,8 +37,8 @@
 
 .free a { order: -9999999; }
 
-.total_pay { height: 40px; display: flex; justify-content: space-between; align-items: center; font-weight: bold; background-color: var(--main-color); color: #fff; }
+.total_pay { height: 40px; display: flex; justify-content: space-between; align-items: center; font-weight: bold; background-color: var(--sub-color); color: #fff; }
 
 .pay_btn { width: 100%; }
-.pay_btn a { width: 80%; position: fixed; left: 50%; transform: translateX(-50%); bottom: 3%;font-weight: bold; text-align: center; font-size: 18px; background-color: #ddd; padding: 10px 30px; border-radius: 100px; letter-spacing: 1px; }
+.pay_btn a { width: 80%; position: fixed; left: 50%; transform: translateX(-50%); bottom: 3%; font-weight: bold; text-align: center; font-size: 18px; background-color: #ddd; padding: 10px 30px; border-radius: 100px; letter-spacing: 1px; }
 .pay_btn a:hover { background-color: var(--main-color); border-color: var(--main-color); color: #fff; }
