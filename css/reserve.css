@@ -40,4 +40,4 @@
 
 .pay_btn { width: 100%; }
 .pay_btn a { width: 80%; position: fixed; left: 50%; transform: translateX(-50%); bottom: 3%; font-weight: bold; text-align: center; font-size: 18px; background-color: #ddd; padding: 10px 30px; border-radius: 100px; letter-spacing: 1px; }
-.pay_btn a:hover { background-color: var(--main-color); border-color: var(--main-color); color: #fff; }
+.pay_btn a:hover { background-color: var(--main-color); color: #fff; }
