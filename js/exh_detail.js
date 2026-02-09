@@ -2,8 +2,12 @@ $(function(){
   $('.content dd').hide();
   $('.content').on('click','dt a',function(e){
     e.preventDefault();
-    $(this).addClass('selected');
-    $(this).parent().next('dd').slideToggle(300);
+
+    const $btn = $(this);
+    const $panel = $btn.parent().next('dd');
+    
+    $panel.stop(true, true).slideToggle(300);
+    $btn.toggleClass('selected');
   });
   
   const initTarget = $('.tab li a.tab_on').attr('href');
