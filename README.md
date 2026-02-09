@@ -5,11 +5,7 @@
 ## 1. 프로젝트 디렉토리 구조 (Directory Tree)
 ```
 프로젝트명 : MMCA
-├─ cheong_list.html
-├─ child_list.html
 ├─ css
-│  ├─ ._exh_list.css
-│  ├─ ._index.css
 │  ├─ exh_detail.css
 │  ├─ exh_list.css
 │  ├─ fixed.css
@@ -18,8 +14,6 @@
 │  ├─ reserve.css
 │  ├─ reset.css
 │  └─ style.css
-├─ deok_list.html
-├─ gwa_list.html
 ├─ image
 │  ├─ cheong_exh1.png
 │  ├─ cheong_exh2.png
@@ -31,7 +25,6 @@
 │  ├─ gwa_exh2.png
 │  ├─ gwa_exh3.png
 │  ├─ gwa_exh4.png
-│  ├─ ic_baseline-apple.svg
 │  ├─ mmca_cheongju.png
 │  ├─ mmca_child.png
 │  ├─ mmca_deoksugung.png
@@ -46,9 +39,9 @@
 │  ├─ seoul_exh5.png
 │  ├─ seoul_exh6.png
 │  ├─ simple-icons_naver.svg
+│  ├─ ic_baseline-apple.svg
 │  └─ wpf_speech-bubble.svg
 ├─ js
-│  ├─ ._jquery-4.0.0.min.js
 │  ├─ exh_detail.js
 │  ├─ exh_list.js
 │  ├─ index.js
@@ -60,9 +53,14 @@
 │  ├─ jquery.easing.1.3.min.js
 │  ├─ jquery.scrollTo.min.js
 │  └─ reserve.js
-├─ login.html
 ├─ pdf
 │  └─ 2025+이중시선_브로슈어.pdf
+├─ cheong_list.html
+├─ child_list.html
+├─ deok_list.html
+├─ gwa_list.html
+├─ index.html
+├─ login.html
 ├─ reserve.html
 ├─ seoul_exh1.html
 ├─ seoul_list.html
