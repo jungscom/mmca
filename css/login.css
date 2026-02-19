@@ -5,7 +5,7 @@
 #wrap h1 img { width: 50px; }
 .login input { display: block; margin: 10px auto; width: 400px; padding: 15px; box-sizing: border-box; font-size: 16px; border-radius: 100px; border: 1px solid #999; text-indent: 1em; }
 
-.chk { margin-bottom: 10px; }
+.chk { margin-bottom: 10px; text-align: center; }
 .chk label { margin-right: 10px; }
 
 .login_btn { margin-bottom: 10px; }

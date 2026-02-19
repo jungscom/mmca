@@ -11,19 +11,21 @@
 <body>
   <div id="wrap">
     <h1><a href="index.html"><img src="image/mmca_logo2.png" alt="mmca"></a></h1>
-    <div class="login">
-      <input type="email" placeholder="아이디(이메일주소)를 입력하세요.">
-      <input type="password" placeholder="비밀번호를 입력하세요.">
-    </div><!-- login -->
-    <div class="chk">
-      <input type="checkbox" id="save_id">
-      <label for="save_id">아이디 저장</label>
-      <input type="checkbox" id="auto_log">
-      <label for="auto_log">자동 로그인</label>
-    </div><!-- chk -->
-    <div class="login_btn">
-      <button type="submit" value="로그인">로그인</button>
-    </div><!-- login_btn -->
+    <form>
+      <div class="login">
+        <input type="email" placeholder="아이디(이메일주소)를 입력하세요." required>
+        <input type="password" placeholder="비밀번호를 입력하세요." required>
+      </div><!-- login -->
+      <div class="chk">
+        <input type="checkbox" id="save_id">
+        <label for="save_id">아이디 저장</label>
+        <input type="checkbox" id="auto_log">
+        <label for="auto_log">자동 로그인</label>
+      </div><!-- chk -->
+      <div class="login_btn">
+        <button type="submit" value="로그인">로그인</button>
+      </div><!-- login_btn -->
+    </form>
     <div class="add_s">
       <a href="#" class="find_id">아이디 찾기</a>
       <a href="#" class="find_pw">비밀번호 찾기</a>
